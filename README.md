@@ -11,29 +11,35 @@ The model is trained on a pre trained VGG19 model. The `input_shape=(256,256,3)`
 
 ## Predictions
 
-After training the model i am predicting on small test set.
+The accuracy of the model on validation set was ~64%.
+After training the model I am predicting on small test set.
 
-### Actual: Yorkshire Terrier 
-### Predicted: Yorkshire Terrier
+#### Actual: Yorkshire Terrier 
+#### Predicted: Yorkshire Terrier
 
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/test%20set/00bbfaa5b2bff32a3dc8ce1563e484a3.jpg)
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/output/yorkshire_terrier_dog_7.jpg)
 
-### Actual: Cardigan
-### Predicted: Cardigan
+#### Actual: Cardigan
+#### Predicted: Cardigan
 
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/test%20set/0b549d7b0a972428bfca5bec213ce494.jpg)
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/output/cardigan_dog_28.jpg)
 
-### Actual: Poodle
-### Predicted: Poodle
+#### Actual: Standard Poodle
+#### Predicted: Standard Poodle
 
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/test%20set/00c6e480ca61e3d2da272d7b6bee0a9e.jpg)
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/output/standard_poodle_dog_10.jpg)
 
-### Actual: Japanese Spaniel
-### Predicted: Japanese Spaniel
+#### Actual: Japanese Spaniel
+#### Predicted: Japanese Spaniel
 
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/test%20set/00bbbcb2bf285af6304bd4da0c10299e.jpg)
 ![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/output/japanese_spaniel_dog_6.jpg)
 
+#### Actual: Brabancon Griffon
+#### Predicted: Brabancon Griffon
+
+![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/test%20set/00d6e16493e6af2886292fa8823bdfe0.jpg)
+![alt text](https://github.com/raj-shah14/Dog-Breed-Prediction/blob/master/output/brabancon_griffon_dog_12.jpg)
