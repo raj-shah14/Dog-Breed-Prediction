@@ -1,5 +1,5 @@
 # Dog-Breed-Prediction
-Using transfer learning from VGG19 model to train on a dataset to predict different dog breeds.
+Using VGG19 pre trained model to train on a dataset using transfer learning approach to predict different dog breeds.
 
 [Dataset](https://www.kaggle.com/c/dog-breed-identification/data)
 
