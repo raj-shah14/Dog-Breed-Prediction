@@ -9,10 +9,13 @@ Once the data is uploaded, split into training set and validation set.
 
 The model is trained on a pre trained VGG19 model. The `input_shape=(256,256,3)` . I am freezing the first 5 layers of the model just so it doesn't waste time on low level features like edges etc. Here is a very well described link on [transfer learning](https://towardsdatascience.com/transfer-learning-using-keras-d804b2e04ef8) using keras.
 
+I also trained the model on pre trained DenseNet model and accuracy improved from VGG19 model. `input_shape = (224,224,3)` .
+
 ## Predictions
 
-The accuracy of the model on validation set was ~64%.
-After training the model I am predicting on small test set.
+The accuracy of the VGG19 model on validation set was ~64%. The multiclass loss was 2.524
+The accuracy of the DenseNet model on validation set was ~73%. The multiclass loss was 1.537
+After training the model I am predicting on small test set. 
 
 #### Actual: Yorkshire Terrier 
 #### Predicted: Yorkshire Terrier
